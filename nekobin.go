@@ -34,10 +34,10 @@ import (
 	mw "github.com/labstack/echo/v4/middleware"
 	_ "github.com/lib/pq"
 
-	"github.com/Monster-ZeroX/nekobin/config"
-	"github.com/Monster-ZeroX/nekobin/database"
-	"github.com/Monster-ZeroX/nekobin/handlers"
-	"github.com/Monster-ZeroX/nekobin/middleware"
+	"github.com/nekobin/nekobin/config"
+	"github.com/nekobin/nekobin/database"
+	"github.com/nekobin/nekobin/handlers"
+	"github.com/nekobin/nekobin/middleware"
 )
 
 type Template struct {
